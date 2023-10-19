@@ -27,3 +27,14 @@
   margin-top: 20px;
   color: rgb(198, 197, 197);
 }
+
+
+.content__title > a {
+  margin-left: -220px;
+}
+
+
+.content__title > a:hover {
+  transform:scale(1.1);
+  color: gray;
+}

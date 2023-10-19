@@ -12,12 +12,22 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 10px;
 }
 
 .small-card__title {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.small-card__title > h1:hover  {
+  transform: scale(1.05);
+  color: gray;
+}
+
+.small-card__title > h1 > a:hover  {
+  color: gray;
 }
 
 .container__small-card__separator{

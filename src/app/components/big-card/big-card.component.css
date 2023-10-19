@@ -17,6 +17,15 @@
   font-size: 20px;
 }
 
+.big-card__title > h1:hover  {
+  transform: scale(1.1);
+  color: gray;
+}
+
+.big-card__title > h1 > a:hover  {
+  color: gray;
+}
+
 .big-card__description{
   margin-top: 20px;
 }
@@ -25,7 +34,22 @@
   color: grey;
 }
 
+.big-card__description > p :hover {
+  color: white;
+}
+
+.big-card__description > p:hover {
+  transform:scale(1.05);
+}
+
 .big-card__photo > img{
   width: 100%;
   min-width: 400px;
+  border-radius: 10px;
+  //margin: 20px;
+}
+
+
+.big-card__photo{
+  //margin-top: 30px;
 }
